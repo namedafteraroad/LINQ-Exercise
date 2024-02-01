@@ -12,7 +12,7 @@ namespace LINQ
             //Remember to use LINQ which involves using a lambda expression.
 
 
-           var gameNameLength =  games.OrderBy(w => w.Length).ThenBy(w => w);
+           var gameNameLength =  games.OrderBy(w => w.Length);
 
             foreach (var game in gameNameLength)
             {
